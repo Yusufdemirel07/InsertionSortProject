@@ -7,10 +7,10 @@ Insertion Sort Project for Patika
 
 <ol>
 
-<li>1.Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.</li>
-<li>2.Big-O gösterimini yazınız.</li>
-<li>3.Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.</li>
-<li>4.Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.</li>
+<li>Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.</li>
+<li>Big-O gösterimini yazınız.</li>
+<li>Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.</li>
+<li>Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.</li>
 
 </ol>
 
@@ -44,3 +44,25 @@ Insertion Sort Project for Patika
 # Proje 2
 
 [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+<ol>
+
+<li>i=0 7,3,5,8,2,9,4,15,6 --> 7 is stored and 3 started to stored one. So, 3 is smaller than first. 3 will go to beginning.</li>
+
+<li>i=1 3,7,5,8,2,9,4,15,6 --> 3 was stored and 5 started to compare with stored ones. So, 5 will go to between 7 and 3.</li>
+
+<li>i=2 3,5,7,8,2,9,4,15,6 --> 5 was stored and 8 started to compare with stored ones. So, 8 will stay at same index.</li>
+
+<li>i=3 3,5,7,8,2,9,4,15,6 --> 8 was stored and 2 started to compare with stored ones. 2 will go to beginning.</li>
+
+<li>i=4 2,3,5,7,8,9,4,15,6 --> 2 was stored and 9 started to compare with stored ones. 9 will stay at same index.</li>
+
+<li>i=5 2,3,5,7,8,9,4,15,6 --> 9 was stored and 4 started to compare with stored ones. 4 will go to between 3 and 5.</li>
+
+<li>i=6 2,3,4,5,7,8,9,15,6 --> 4 was stored and 15 started to compare with stored ones. 15 will stay at same index.</li>
+
+<li>i=7 2,3,4,5,7,8,9,15,6 --> 15 was stored and 6 started to compare with stored ones. 6 will go to between 5 and 7.</li>
+
+<li>i=8 2,3,4,5,6,7,8,9,15 --> 6 was stored and elements were ordered in ascending by insertion algorithm.</li>
+
+</ol>
